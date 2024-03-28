@@ -1,0 +1,65 @@
+
+.events_Schools {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.events_Schools h1 {
+    color: #3B3B98;
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.container1 {
+    
+    text-align: center;
+    justify-content: center;
+    width: 700px;
+    margin-left: 400px ;
+    
+}
+
+.container1Heading {
+    color: #596275;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+
+
+.eventsContainer2 {
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr);
+    gap: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.eventsContents {
+    background-color: #95a5a6;
+    width: 260px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.3ms;
+}
+
+.eventsContents:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.eventsContents h1 {
+    font-size: 30px;
+}
+

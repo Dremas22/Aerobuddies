@@ -1,0 +1,60 @@
+.camps {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.camps h1 {
+    color: #3B3B98;
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.contents1 h2 {
+    color: #596275;
+    margin-top: 35px;
+}
+
+.contents1 p {
+
+    color: #596275;
+    font-size: larger;
+    width: 800px;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 35px;
+}
+
+.contents2 {
+    display: grid;
+    grid-template-columns: repeat(2, 0.2fr);
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.gridContents {
+    
+    background-color: #95a5a6;
+    width: 260px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.3ms;
+}
+
+.gridContents:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.gridContents h1 {
+    font-size: 30px;
+}
