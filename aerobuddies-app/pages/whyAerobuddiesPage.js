@@ -1,4 +1,4 @@
-import WhyAerobuddiesComp from "@/components/aeroBcomponent/whyaerobuddiesComp";
+import WhyAerobuddiesComp from "@/components/aeroBcomponent/whyAerobuddiesComp";
 
 function WhyAerobuddiesPage() {
     return (
