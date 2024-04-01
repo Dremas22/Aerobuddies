@@ -8,7 +8,7 @@ function Footer() {
 
             <div className={classes.footerLogo}>
                 <Link href='/' className={classes.link}>
-                    <h2>Aerobudies logo</h2>
+                <img src="./images/AeroBLogo.png" alt="Aerobuddies logo" />
                 </Link>
             </div>
 

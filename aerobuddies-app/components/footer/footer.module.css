@@ -1,15 +1,21 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 10px;
     color: #596275;
     margin-top: 60px;
 }
 
 .footerLogo {
-    display: flex;
+    text-align: center;
     justify-content: center; 
     align-items: center; 
+}
+
+.footerLogo img {
+    height: 250px;
+    width: 220px;
+    margin-top: -50px;
 }
 
 .footer2 {

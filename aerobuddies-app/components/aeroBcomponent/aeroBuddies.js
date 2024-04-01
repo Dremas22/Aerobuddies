@@ -11,12 +11,12 @@ function AeroBuddiesComp() {
             <Navbar />
 
             <div className={classes.imageDiv}>
-                <Image
+                {/* <Image
                     src="/scholars.jpeg"
                     alt="background Image"
                     layout="fill"
                     objectFit="cover"
-                />
+                /> */}
             </div>
 
             <div className={classes.headerContainer}>
@@ -43,7 +43,7 @@ function AeroBuddiesComp() {
                         <div className={classes.radioDiv}></div>
                     </div>
 
-                    <div>Dronology</div>
+                    <div className={classes.headerProgs}>Dronology</div>
                 </div>
 
                 <div className={classes.headerContainer3}>

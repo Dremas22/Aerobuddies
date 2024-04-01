@@ -13,15 +13,24 @@
     color: #dfe6e9;
     width: 100%;
     height: 120px;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .logoDiv {
-    margin-bottom: 20px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
+.logoDiv img {
+    height: 250px;
+    width: 220px;
+}
+
+
 .navLogin {
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .linkDiv {
@@ -73,6 +82,7 @@
     background-color: antiquewhite;
     width: 250px;
     color: #6c5ce7;
+    cursor: pointer;
 
 }
 
@@ -92,9 +102,11 @@
 
 .linkDivMobile {
     display: flex;
-    flex-direction: column;
-    margin: 10px;
+    align-items: center;
+    margin: 20px;
     background-color: #3B3B98;
+
+
 }
 
 .linksMobile {
@@ -114,8 +126,13 @@
 
 }
 
-.selectContainerMobile img {
+.linkDivMobile optgroup {
+    margin-top: 70px;
+    /* align-items: center; */
+}
 
+.selectContainerMobile img {
+    margin-bottom: 40px;
     width: 20px;
     height: 20px;
     margin-left: 65px;
@@ -145,14 +162,23 @@
 
 .menu {
     display: none;
-    background-color: lightgray;
-    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+    width: 30px;
+    height: 25px;
+    border-radius: 5px
 }
 
-.menu img {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
+.line {
+    margin: 5px 4px;
+    width: 70%;
+    height: 2px;
+    /* Adjust line thickness as needed */
+    background-color: white;
+
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 580px) {
@@ -162,37 +188,92 @@
 
     .menu {
         display: block;
-        margin-left: 70px;
-        
+        margin-left: auto;
+        margin-right: 70px;
     }
 
-    .navContainer {
+    /* .navContainer {
         width: auto
-    }
+    } */
 
     .navDiv {
-        margin-right: -100px;
-        width: auto
+        /* margin-right: -100px; */
+        width: 100%
     }
 
     .logoDiv {
         margin-left: -70px;
     }
 
-    .selectContainerMobile img {
-        position: absolute;
-        margin-left: 70px;       
-    }
 
-    .aboutUsMobile option {  
-        width: 50px;
+    .mobileDiv {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        justify-content: center;
+        background-color: #fff;
+        color: #3B3B98;
+        /* margin-left: 4px; */
+        width: 39%;
+        font-size: large;
+        font-weight: bold;
+        margin: 20px;
+        
+        
     }
 
     .linkDivMobile {
-        margin-top: 290px;
-        position: absolute;
+        position: fixed;
+        top: 10%;
+        left: 0;
+        width: 35%;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        background-color: #fff;
+        color: #3B3B98;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         z-index: 1000;
-        margin-left: 100px;
+        height: auto;
+        margin-left: 70px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.5);
+    }
+
+     .links {
+        color: #3B3B98;
+     }
+
+    .linkDivMobile select {
+        background-color: #3B3B98;
+        color: #fff;
+        border: none;
+        width: 150px;
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    .cancelBtn {
+        padding: 5px;
+        margin-top: 10px;
+        width: 100px;
+        height: 40px;
+        background-color: #C4E538;
+        color: #3B3B98;
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .cancelBtn:hover {
+        background-color: #badc58;
+        color: #fff;
+    }
+
+    .aboutUsMobile option {
+        width: 50px;
     }
 
     .linksMobile {
@@ -202,7 +283,7 @@
     .linksMobile:hover {
         color: #f1c40f;
         cursor: pointer;
-    } 
+    }
 
 }
 
@@ -213,24 +294,119 @@
 
     .menu {
         display: block;
-        margin-left: 120px;
+        margin-left: auto;
+        margin-right: 120px;
+    }
+
+    .navDiv {
+        /* margin-right: -100px; */
+        width: 100%
+    }
+
+    .mobileDiv {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        justify-content: center;
+        background-color: #fff;
+        color: #3B3B98;
+        /* margin-left: 4px; */
+        width: 39%;
+        font-size: large;
+        font-weight: bold;
+        margin: 20px;
         
     }
 
-    .selectContainerMobile img {
-        position: absolute;
-        margin-left: 70px;       
+    .linkDivMobile {
+        position: fixed;
+        top: 10.5%;
+        left: 0;
+        width: 50%;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        background-color: #fff;
+        color: #3B3B98;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        z-index: 1000;
+        height: auto;
+        margin-left: 70px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.5);
+
     }
 
-    .aboutUsMobile option {  
+     .links {
+        color: #3B3B98;
+     }
+
+    .linkDivMobile select {
+        background-color: #3B3B98;
+        color: #fff;
+        border: none;
+        width: 150px;
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    .cancelBtn {
+        padding: 5px;
+        margin-top: 10px;
+        width: 100px;
+        height: 40px;
+        background-color: #C4E538;
+        color: #3B3B98;
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .cancelBtn:hover {
+        background-color: #badc58;
+        color: #fff;
+    }
+
+    /* .mobileDiv {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        justify-content: center;
+        background-color: #3B3B98;
+        
+        width: 26%;
+    } */
+
+
+
+    /* .linkDivMobile select {
+        background-color: #3B3B98;
+        color: #fff;
+        border: none;
+        width: 150px;
+    } */
+
+    .aboutUsMobile option {
         width: 50px;
     }
 
-    .linkDivMobile {
-        margin-top: 290px;
-        position: absolute;
+    /* .linkDivMobile {
+        position: fixed;
+        top: 10%;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         z-index: 1000;
-        margin-left: 325px;
-        font-size: large;
-    }
+        height: auto;
+        margin-left: 60px;
+        padding: 10px;
+
+    } */
 }
