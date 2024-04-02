@@ -1,0 +1,43 @@
+.aboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.aboutUsContainer h1 {
+    color: #3B3B98;
+    font-size: 40px;
+    
+}
+
+.aboutUsContents {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 180vh;
+}
+
+.aboutUsContents2 {
+    max-width: 800px; /* Adjust width as needed */
+    padding: 20px;
+    text-align: center;
+}
+
+.aboutUsContents2 p {
+    text-align: left;
+    margin-top: 10px;
+    color: #8395a7
+}
+
+
+.aboutUsImageDiv {
+    position: relative;
+    width: 140%;
+    height: 200px;
+    /* background-color: #57606f */
+    margin-top: 20px;
+    
+}

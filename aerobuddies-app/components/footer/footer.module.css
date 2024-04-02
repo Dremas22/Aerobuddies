@@ -1,9 +1,9 @@
 .footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 0.5fr);
     gap: 10px;
     color: #596275;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .footerLogo {
@@ -52,6 +52,12 @@ text-align: left;
         text-align: center;
         align-items: center;
         justify-content: center;
+        
+        
+    }
+
+    .footerLogo img {
+        margin-bottom: -100px;
     }
 
     .footer2 {
@@ -59,7 +65,14 @@ text-align: left;
         text-align: center;
         align-items: center;
         justify-content: center;
+        margin-top: 50px;
+        
     }
+
+    .footer3 {
+        margin-top: 30px;
+    }
+
     
 }
 

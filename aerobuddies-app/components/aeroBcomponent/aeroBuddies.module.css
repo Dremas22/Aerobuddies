@@ -27,11 +27,11 @@
 
 .headerContainer2 {
     display: grid;
-    grid-template-columns: repeat(5, 0.5fr);
+    grid-template-columns: repeat(2, 0.05fr);
     align-items: center;
     text-align: center;
     justify-content: center;
-    gap: 10px;
+    gap: 2px;
     font-size: 45px;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
@@ -52,8 +52,6 @@
     text-align: center;
     justify-content: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-
-
 }
 
 
@@ -71,7 +69,7 @@
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     position: absolute;
-    top: 58%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -120,7 +118,7 @@
 .bodyContainer1 h1 {
     color: #3B3B98;
     font-size: 40px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .bodyContainer2 {
@@ -132,6 +130,11 @@
 
 .why {
     color: #596275;
+}
+
+.groupImage {
+    width: 150px;
+    height: 120px;
 }
 
 .whyAerobuddies {
@@ -195,13 +198,27 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 3px;
 
 }
 
 .features img {
-    margin: 10px;
+    margin: 5px;
 }
+
+.acolades {
+    display: grid;
+    grid-template-columns: repeat(5, 0.3fr);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+/* .acolades img {
+
+} */
 
 @media screen and (min-width: 320px) and (max-width: 580px) {
 
@@ -245,14 +262,21 @@
         width: auto;
     }
 
+    .bodyContainer3 span {
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+    }
+
     .bodyContainer1 h1 {
         font-size: 30px;
     }
 
-    .features {
+    .features, .acolades {
         display: flex;
         flex-direction: column;
     }
+    
 
 }
 
@@ -290,8 +314,10 @@
         width: 500px
     }
 
-    .features {
+    .features, .acoldaes {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
     }
+
+
 }

@@ -3,7 +3,7 @@ import classes from "./camps.module.css"
 import Navbar from "../navbar/navbar";
 import Footer from "../footer/footer";
 
-function Camps() {
+function NewsroomComp() {
     return (
         <div className={classes.camps}>
             <Navbar />
@@ -45,4 +45,4 @@ function Camps() {
     )
 }
 
-export default Camps;
+export default NewsroomComp;

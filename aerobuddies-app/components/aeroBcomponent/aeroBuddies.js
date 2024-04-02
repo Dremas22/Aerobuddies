@@ -22,28 +22,27 @@ function AeroBuddiesComp() {
             <div className={classes.headerContainer}>
                 <div className={classes.headerContainer2}>
                     <div className={classes.headerProgs}>
+                        <div>Science</div>
+                        <div className={classes.radioDiv}></div>
+                    </div>
+
+                    <div className={classes.headerProgs}>
+                        <div>Technology</div>
+                        <div className={classes.radioDiv}></div>
+                    </div>
+
+
+                    <div className={classes.headerProgs}>
+                        <div>Engineering</div>
+                        <div className={classes.radioDiv}></div>
+                    </div>
+
+
+                    <div className={classes.headerProgs}>
                         <div>Maths</div>
-                        <div className={classes.radioDiv}></div>
                     </div>
 
-                    <div className={classes.headerProgs}>
-                        <div>Coding</div>
-                        <div className={classes.radioDiv}></div>
-                    </div>
-
-
-                    <div className={classes.headerProgs}>
-                        <div>Robotics</div>
-                        <div className={classes.radioDiv}></div>
-                    </div>
-
-
-                    <div className={classes.headerProgs}>
-                        <div>Aviation</div>
-                        <div className={classes.radioDiv}></div>
-                    </div>
-
-                    <div className={classes.headerProgs}>Dronology</div>
+                    
                 </div>
 
                 <div className={classes.headerContainer3}>
@@ -54,7 +53,7 @@ function AeroBuddiesComp() {
 
             <div className={classes.bodyContainer1}>
                 <div className={classes.what}>
-                    <h1>What is Aerobuddies?</h1>
+                    <h1>What is AeroBuddies?</h1>
                     
                     <br />
                     <p>A Place Where Kids Do Amazing Maths, Where Curiosity, Exploration and Fun Meet Maths!</p>
@@ -69,7 +68,7 @@ function AeroBuddiesComp() {
                         available foraspiring entrepreneurs wanting to start an STEM education and ourutoring business.
                         <br />
                         <br />
-                        Aerobuddies’s proven curriculum, operating system and learning management system
+                        AeroBuddies’s proven curriculum, operating system and learning management system
                         is available for license.
                         Contact info@Aerobuddieslearning.com for additional information.
                     </p>
@@ -79,7 +78,7 @@ function AeroBuddiesComp() {
                     <button className={classes.enroll}>Enroll Now!</button>
                 </Link>
 
-                <h1 className={classes.whyAerobuddies}>Why Aerobuddies?</h1>
+                <h1 className={classes.whyAerobuddies}>Why AeroBuddies?</h1>
 
 
                 <div className={classes.bodyContainer2}>
@@ -115,17 +114,16 @@ function AeroBuddiesComp() {
 
                         <div>
                             <p>
-                                From Game-Based Learning using Minecraft, to LEGO robotics systems,
+                                From Game-Based Learning, to LEGO robotics systems,
                                 to littleBits magnetic circuitry, technology plays a key role in every course.
                             </p>
                         </div>
 
                     </div>
                     <div className={classes.why}>
-                        <img src="./images/group.png" alt="smile image" />
+                        <img src="./images/group1.jpg" alt="smile image" className={classes.groupImage}/>
 
                         <h3>Small Class Sizes</h3>
-                        <br />
                         <div>
                             <p>
                                 Our low student to instructor ratio allows kids to get the attention they need,
@@ -176,11 +174,20 @@ function AeroBuddiesComp() {
 
                 <h1>As featured On</h1>
                 <div className={classes.features}>
-                    <img src="./images/702.jpeg" alt="702 image" />
+                    <img src="./images/702news.jpeg" style={{ width: '200px', height: '100px' }} alt="702 image" />
                     <img src="./images/cnbc.jpeg" alt="cnbc image" />
-                    <img src="./images/africa-ea.jpeg" style={{ width: '230px', height: '140px' }} alt="africa image" />
+                    <img src="./images/thestar.jpeg"  alt="africa image" />
+                    <img src="./images/safm.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
+                    <img src="./images/sowetan.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
+                </div>
+
+                <h1>Our Acolades</h1>
+                <div className={classes.acolades}>
+                <img src="./images/702.jpeg" style={{ width: '200px', height: '100px' }} alt="702 image" />
+                    <img src="./images/africa-ea.jpeg" alt="cnbc image" />
+                    <img src="./images/newsroom.jpeg" style={{ width: '200px', height: '150px' }}  alt="africa image" />
                     <img src="./images/caia.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
-                    <img src="./images/avi.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
+                    <img src="./images/sowetoTV.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
                 </div>
 
                 <Footer />

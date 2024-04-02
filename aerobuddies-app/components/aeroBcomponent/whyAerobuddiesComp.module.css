@@ -1,0 +1,100 @@
+.whyContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.whyContainer h1 {
+    color: #3B3B98;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.symbolsDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr);
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 0 100px;
+
+}
+
+.symbolsDiv img {
+    width: 150px;
+    height: 150px
+}
+
+.whyContents {
+    width: 80%;
+    margin: 60px 0 0 100px;
+    text-align: left;
+    color: #8395a7
+}
+
+.enrollDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #7158e2;
+    width: 65%;
+    height: auto;
+    margin: 40px 0 0 20%;
+    border-radius: 5px;
+}
+
+.enrollDiv h2 {
+    margin: 5px;
+    color: #fff200;
+    font-size: 30px;
+}
+
+.enroll {
+    width: 150px;
+    height: 35px;
+    background: #6ab04c;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.enroll:hover {
+    background: #10ac84;
+    cursor: pointer;
+}
+
+.gridContainer {
+    text-align: center;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.whyGrid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    row-gap: 40px;
+
+}
+
+.whyGridContents {
+    
+    padding: 10px;
+    
+    text-align: left;
+    color: #8395a7
+}
+
+.whyGridContents h3 {
+    
+    margin: 40px 0 30px;
+}

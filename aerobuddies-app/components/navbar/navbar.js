@@ -125,12 +125,8 @@ function Navbar() {
     }
     function handleChange(event) {
 
-        if (event.target.value === "About Us") {
-            goToAboutUsPage();
-        }
-
         if (event.target.value === "Our Story") {
-            goToOurStoryPage();
+            goToAboutUsPage();
         }
 
         if (event.target.value === "Why Aerobuddies") {
@@ -148,9 +144,7 @@ function Navbar() {
     function goToAboutUsPage() {
         window.location.href = './about-us';
     }
-    function goToOurStoryPage() {
-        window.location.href = './our-story';
-    }
+
     function goToMeetTheTeam() {
         window.location.href = './meet-the-team';
     }
@@ -168,19 +162,19 @@ function Navbar() {
                     <div className={classes.linkDiv}>
                         <div className={classes.selectContainer}>
                             <select className={classes.aboutUs} onChange={handleChange}>
-                                <option>About Us</option>
+                                <option>About us</option>
                                 <option>Our Story</option>
-                                <option>why Aerobuddies</option>
+                                <option>Why Aerobuddies</option>
                                 <option>Meet The Team</option>
                             </select>
-                            <img src='./images/arrowdown.png' alt='down arrow icon' />
+                            <img src='./images/arrowdown2.png' alt='down arrow icon' />
                         </div>
 
                         <Link href='/programs' className={classes.links}>Programs</Link>
-                        <Link href='/camps' className={classes.links}>Camps</Link>
                         <Link href='/events' className={classes.links}>Events</Link>
                         <Link href='/schools' className={classes.links}>Schools</Link>
                         <Link href='/locations' className={classes.links}>Locations</Link>
+                        <Link href='/newsroom' className={classes.links}>Newsroom</Link>
 
                         <div className={classes.navLogin}>
                             <Login />
@@ -205,10 +199,11 @@ function Navbar() {
                             </select>
                             <div className={classes.mobileDiv}>
                                 <Link href='/programs' className={classes.links}>Programs</Link>
-                                <Link href='/camps' className={classes.links}>Camps</Link>
+                                
                                 <Link href='/events' className={classes.links}>Events</Link>
                                 <Link href='/schools' className={classes.links}>Schools</Link>
                                 <Link href='/locations' className={classes.links}>Locations</Link>
+                                <Link href='/camps' className={classes.links}>Newsroom</Link>
                                 <Login />
                                 
                             </div>
