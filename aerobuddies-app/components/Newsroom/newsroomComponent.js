@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./camps.module.css"
+import classes from "./newsroomComponent.module.css"
 import Navbar from "../navbar/navbar";
 import Footer from "../footer/footer";
 
