@@ -6,3 +6,77 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.schoolsContainer h1 {
+    color: #3B3B98;
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.schoolsContainer1 {
+    width: 900px;
+    text-align: left;
+    margin: 10px 0 0 100px;
+    
+}
+
+.schoolsContainer2 {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.schoolsContents {
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    padding: 10px;
+       
+}
+
+.schoolsContents img {
+    width: 520px;
+    height: 320px;
+    margin-left: 40px
+}
+
+.products {
+    margin-left: 50%;
+}
+
+.productsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    column-gap: 30px;
+    row-gap: 15px;
+    margin: 30px 
+}
+
+.productsMiniContainer {
+    display: flex;
+    width: 550px;
+    height: 200px;
+    border: 1px solid #CAD3C8;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
+}
+
+.productImg {
+    width: 180px;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center
+}
+
+.productImg img {
+    width: 100%;
+    height: 100%
+}
+
+.productDetails {
+    padding: 10px;
+    color: #8395a7
+}
+

@@ -46,7 +46,7 @@ function AeroBuddiesComp() {
                 </div>
 
                 <div className={classes.headerContainer3}>
-                    <p>Kids gain an academic edge and 21st century technology skills!</p>
+                    <p className={classes.kidsSkills}>Kids gain an academic edge and 21st century technology skills!</p>
                 </div>
 
             </div>
@@ -137,7 +137,7 @@ function AeroBuddiesComp() {
                 <h1>What Parents Say?</h1>
 
                 <div className={classes.bodyContainer3}>
-                    <div>
+                    <div className={classes.whatDetails}>
                         <p>
                             “I really appreciate the time and effort that you invested in our son,
                             Sam. Not only did you provide great education to him but fantastic feedback
@@ -146,7 +146,7 @@ function AeroBuddiesComp() {
                         </p>
                         <span>- Beth H.</span>
                     </div>
-                    <div>
+                    <div className={classes.whatDetails}>
                         <p>
                             “I wanted to let you know that Bajian has been raving about the class;
                             how much fun she had with you and how she enjoyed learning new math skills.
@@ -155,7 +155,7 @@ function AeroBuddiesComp() {
                         </p>
                         <span>- Robin W.</span>
                     </div>
-                    <div>
+                    <div className={classes.whatDetails}>
                         <p>
                             “Grady was really nervous before his first Minecraft class, but your staff
                             was patient and kind. By the end he was totally enthralled and learned
@@ -163,7 +163,7 @@ function AeroBuddiesComp() {
                         </p>
                         <span>- Billy M.</span>
                     </div>
-                    <div>
+                    <div className={classes.whatDetails}>
                         <p>
                             “When Marcia got her first A in math it changed her whole attitude
                             towards school, not just math. Thank You Aerobuddies!”

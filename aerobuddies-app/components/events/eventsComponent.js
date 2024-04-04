@@ -20,9 +20,7 @@ function Events() {
                     <div className={classes.eventsContents}>
                         <h1>Parents' Night Out</h1>
                     </div>
-                    <div className={classes.eventsContents}>
-                        <h1>Mine Craft Game Night</h1>
-                    </div>
+                    
                     <div className={classes.eventsContents}>
                         <h1>Saturday Kids Club</h1>
                     </div>

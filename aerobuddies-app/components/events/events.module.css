@@ -20,7 +20,7 @@
     text-align: center;
     justify-content: center;
     width: 700px;
-    margin-left: 400px ;
+    margin-left: 320px ;
     
 }
 
@@ -36,7 +36,7 @@
 
 .eventsContainer2 {
     display: grid;
-    grid-template-columns: repeat(4, 0.2fr);
+    grid-template-columns: repeat(3, 0.2fr);
     gap: 25px;
     text-align: center;
     justify-content: center;

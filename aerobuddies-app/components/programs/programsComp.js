@@ -13,13 +13,13 @@ function Programs() {
                 <h1 className={classes.heading}>Programs</h1>
 
                 <div className={classes.info}>
-                    <p>
-                    We built Aerobuddies to engage K-8 students around the world in supplemental science, 
+                    <p className={classes.programsDetails}>
+                    We built AeroBuddies to engage K-8 students around the world in supplemental science, 
                     technology, engineering, art and math education – giving them the skills and motivation 
                     they need to create a better future. Our interactive programs spark kids’ curiosity as 
-                    they have fun solving problems with friends. All of our curriculum-based STEAM programs 
+                    they have fun solving problems with friends. All of our curriculum-based STEM programs 
                     foster academic enrichment and boost confidence. We are accustomed to helping your student 
-                    excel in school -- because that's what we do! Ignite your child’s love of learning at Aerobuddies!
+                    excel in school -- because that's what we do! Ignite your child’s love of learning at AeroBuddies!
                     </p>
                 </div>
 
@@ -27,25 +27,25 @@ function Programs() {
 
                     <div className={classes.learningPrograms}>
                         <img src="./images/smile.png" alt="maths icon" />
+                        <h1>Science</h1>
+                    </div>
+                    <div className={classes.learningPrograms}>
+                        <img src="./images/smile.png" alt="maths icon" />
+                        <h1>Technology</h1>
+                    </div>
+                    <div className={classes.learningPrograms}>
+                        <img src="./images/smile.png" alt="maths icon" />
+                        <h1>Engineering</h1>
+                    </div>
+                    <div className={classes.learningPrograms}>
+                        <img src="./images/smile.png" alt="maths icon" />
                         <h1>Maths Buddies</h1>
                     </div>
-                    <div className={classes.learningPrograms}>
-                        <img src="./images/smile.png" alt="maths icon" />
-                        <h1>Coding</h1>
-                    </div>
-                    <div className={classes.learningPrograms}>
-                        <img src="./images/smile.png" alt="maths icon" />
-                        <h1>Robotics</h1>
-                    </div>
-                    <div className={classes.learningPrograms}>
-                        <img src="./images/smile.png" alt="maths icon" />
-                        <h1>Aviation</h1>
-                    </div>
 
-                    <div className={classes.learningPrograms}>
+                    {/* <div className={classes.learningPrograms}>
                         <img src="./images/smile.png" alt="maths icon" />
                         <h1>Dronolody</h1>
-                    </div>
+                    </div> */}
                     {/* <div className={classes.learningPrograms}>
                         <img src="./images/smile.png" alt="maths icon" />
                         <h1>Game based Learning</h1>

@@ -74,7 +74,7 @@
     transform: translate(-50%, -50%);
 }
 
-.headerContainer3 p {
+.kidsSkills {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -164,7 +164,7 @@
     margin-top: 50px;
 }
 
-.bodyContainer3 div {
+.whatDetails {
     border: 0.5px solid lightgray;
     display: flex;
     flex-direction: column;
