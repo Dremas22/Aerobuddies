@@ -1,22 +1,22 @@
 import React from "react";
 import Navbar from "../navbar/navbar";
 import classes from './aeroBuddies.module.css';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from "next/link";
 import Footer from "../footer/footer";
+// import video from './videos/BG1.mp4';
 
 function AeroBuddiesComp() {
     return (
         <>
             <Navbar />
 
-            <div className={classes.imageDiv}>
-                {/* <Image
-                    src="/scholars.jpeg"
-                    alt="background Image"
-                    layout="fill"
-                    objectFit="cover"
-                /> */}
+            <div className={classes.videoBackground}>
+                {/* <video src={video} autoPlay muted loop id="video-background" /> */}
+                <video autoPlay loop muted className={classes.video}>
+                    <source src="/videos/BG1.mp4" type="video/mp4" />
+                    
+                </video>
             </div>
 
             <div className={classes.headerContainer}>
@@ -42,7 +42,7 @@ function AeroBuddiesComp() {
                         <div>Maths</div>
                     </div>
 
-                    
+
                 </div>
 
                 <div className={classes.headerContainer3}>
@@ -54,7 +54,7 @@ function AeroBuddiesComp() {
             <div className={classes.bodyContainer1}>
                 <div className={classes.what}>
                     <h1>What is AeroBuddies?</h1>
-                    
+
                     <br />
                     <p>A Place Where Kids Do Amazing Maths, Where Curiosity, Exploration and Fun Meet Maths!</p>
                     <br />
@@ -73,7 +73,7 @@ function AeroBuddiesComp() {
                         Contact info@Aerobuddieslearning.com for additional information.
                     </p>
                 </div>
-                
+
                 <Link href='/programs'>
                     <button className={classes.enroll}>Enroll Now!</button>
                 </Link>
@@ -121,7 +121,7 @@ function AeroBuddiesComp() {
 
                     </div>
                     <div className={classes.why}>
-                        <img src="./images/group1.jpg" alt="smile image" className={classes.groupImage}/>
+                        <img src="./images/group1.jpg" alt="smile image" className={classes.groupImage} />
 
                         <h3>Small Class Sizes</h3>
                         <div>
@@ -176,16 +176,16 @@ function AeroBuddiesComp() {
                 <div className={classes.features}>
                     <img src="./images/702news.jpeg" style={{ width: '200px', height: '100px' }} alt="702 image" />
                     <img src="./images/cnbc.jpeg" alt="cnbc image" />
-                    <img src="./images/thestar.jpeg"  alt="africa image" />
+                    <img src="./images/thestar.jpeg" alt="africa image" />
                     <img src="./images/safm.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
                     <img src="./images/sowetan.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
                 </div>
 
                 <h1>Our Acolades</h1>
                 <div className={classes.acolades}>
-                <img src="./images/702.jpeg" style={{ width: '200px', height: '100px' }} alt="702 image" />
+                    <img src="./images/702.jpeg" style={{ width: '200px', height: '100px' }} alt="702 image" />
                     <img src="./images/africa-ea.jpeg" alt="cnbc image" />
-                    <img src="./images/newsroom.jpeg" style={{ width: '200px', height: '150px' }}  alt="africa image" />
+                    <img src="./images/newsroom.jpeg" style={{ width: '200px', height: '150px' }} alt="africa image" />
                     <img src="./images/caia.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
                     <img src="./images/sowetoTV.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
                 </div>

@@ -1,6 +1,9 @@
 import Head from "next/head";
+import { useRef } from "react";
 import { Inter } from "next/font/google";
 import AeroBuddiesHomePage from "./aeroBuddieshomePage";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -45,17 +45,18 @@ function AboutUs() {
                         instruction. Their goal: teach children how to think, with the skills to succeed in maths and STEM in
                         general plus giving them the confidence to achieve their academic potential.
                     </p>
-                    <div className={classes.aboutUsImageDiv}>
-                        <Image
-                            src="/AeroBLogo2.jpeg"
-                            alt="background Image"
-                            layout="fill"
-                            objectFit="cover"
-                        />
-                    </div>
+
+
                 </div>
 
+            </div>
+            
+            <div className={classes.videoBackground}>
 
+                <video autoPlay loop muted className={classes.video}>
+                    <source src="/videos/BG1.mp4" type="video/mp4" />
+
+                </video>
             </div>
 
             <Footer />

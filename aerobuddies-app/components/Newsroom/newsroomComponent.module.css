@@ -1,4 +1,4 @@
-.camps {
+.newsroom {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -8,15 +8,59 @@
 
 }
 
-.camps h1 {
+.newsroomContainer {
+    margin: 50px 0 0 50px;
+  
+}
+
+.newsroom h1 {
     color: #3B3B98;
     font-size: 40px;
     margin-top: 35px;
 }
 
+.contents1 {
+    width: 100%;
+   
+
+}
+
+.carouselContainer {
+    width: 90%;
+    height: auto;
+    background-color: #596275;
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+.itemContainer img {
+    height: 100%;
+    /* width: 100px */
+}
+
+.articlesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    width: 100%;
+    border: 1px solid #dfe6e9;
+    /* margin: 50px 0 0 10px; */
+}
+
+.articleDiv {
+    width: 120%;
+    height: 500px;
+    /* border: 1px solid #dfe6e9; */
+    
+}
+
+.articleDiv h3 {
+    padding: 10px;
+}
+
 .contents1 h2 {
     color: #596275;
     margin-top: 35px;
+    
 }
 
 .contents1 p {
@@ -49,6 +93,8 @@
     justify-content: center;
     transition: 0.3ms;
 }
+
+
 
 .gridContents:hover {
     transform: scale(1.05);
