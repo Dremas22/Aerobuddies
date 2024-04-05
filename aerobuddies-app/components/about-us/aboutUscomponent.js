@@ -54,7 +54,7 @@ function AboutUs() {
             <div className={classes.videoBackground}>
 
                 <video autoPlay loop muted className={classes.video}>
-                    <source src="/videos/BG1.mp4" type="video/mp4" />
+                    <source src="/videos/BG3.mp4" type="video/mp4" />
 
                 </video>
             </div>

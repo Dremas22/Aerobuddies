@@ -6,10 +6,46 @@
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .locationsContainer h1 {
     color: #3B3B98;
     font-size: 40px;
     margin-top: 50px;
+}
+
+.addressContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 500px
+}
+
+.addressPlace {
+    margin: 40px 0 0 150px;
+    width: auto;
+    height: 400px;
+}
+
+.addressDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+    margin: 10px 0 0 30px;
+    width: 500px;
+    height: 300px;
+    color: #596275;
+    /* background-color: #b2bec3; */
+}
+
+.liner {
+    width: 90%;
+    height: 1px;
+    margin: 1px;
+    /* Adjust line thickness as needed */
+    background-color: #b2bec3;
 }
