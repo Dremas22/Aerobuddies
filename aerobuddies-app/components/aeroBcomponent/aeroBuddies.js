@@ -1,10 +1,9 @@
 import React from "react";
 import Navbar from "../navbar/navbar";
 import classes from './aeroBuddies.module.css';
-// import Image from 'next/image';
 import Link from "next/link";
 import Footer from "../footer/footer";
-// import video from './videos/BG1.mp4';
+
 
 function AeroBuddiesComp() {
     return (
@@ -12,7 +11,7 @@ function AeroBuddiesComp() {
             <Navbar />
 
             <div className={classes.videoBackground}>
-                {/* <video src={video} autoPlay muted loop id="video-background" /> */}
+                
                 <video autoPlay loop muted className={classes.video}>
                     <source src="/videos/BG1.mp4" type="video/mp4" />
                     
@@ -22,24 +21,32 @@ function AeroBuddiesComp() {
             <div className={classes.headerContainer}>
                 <div className={classes.headerContainer2}>
                     <div className={classes.headerProgs}>
-                        <div>Science</div>
+                        <div className={classes.stem}>
+                        <span>S</span>cience
+                            </div>
                         <div className={classes.radioDiv}></div>
                     </div>
 
                     <div className={classes.headerProgs}>
-                        <div>Technology</div>
-                        <div className={classes.radioDiv}></div>
-                    </div>
-
-
-                    <div className={classes.headerProgs}>
-                        <div>Engineering</div>
+                        <div className={classes.stem}>
+                            <span>T</span>echnology
+                            </div>
                         <div className={classes.radioDiv}></div>
                     </div>
 
 
                     <div className={classes.headerProgs}>
-                        <div>Maths</div>
+                        <div className={classes.stem}>
+                        <span>E</span>ngineering
+                            </div>
+                        <div className={classes.radioDiv}></div>
+                    </div>
+
+
+                    <div className={classes.headerProgs}>
+                        <div className={classes.stem}>
+                        <span>M</span>aths
+                            </div>
                     </div>
 
 

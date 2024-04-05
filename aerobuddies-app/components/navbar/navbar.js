@@ -146,7 +146,7 @@ function Navbar() {
     }
 
     function goToMeetTheTeam() {
-        window.location.href = './meet-the-team';
+        window.location.href = './meetTheTeam';
     }
     
     return (

@@ -9,17 +9,10 @@
     margin-top: 50px;
 }
 
-.imageDiv {
-   
-    position: relative;
-    height: 70vh;
-    background-color: #57606f
-}
-
 .videoBackground {
     width: 100%;
     position: relative;
-    height: 100vh;
+    height: 90vh;
     background-color: #57606f
     
 }
@@ -35,22 +28,12 @@
     transform: translate(-50%, -50%); */
 }
 
-.imageDiv>img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
 .headerContainer2 {
     display: grid;
-    grid-template-columns: repeat(2, 0.05fr);
+    grid-template-columns: repeat(4, 0.05fr);
     align-items: center;
     text-align: center;
     justify-content: center;
-    gap: 2px;
     font-size: 45px;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
@@ -58,7 +41,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 60%;
+    /* background-color: rgba(89, 98, 117, 0.2); 
+    backdrop-filter: blur(5px);    */
 
+}
+
+.stem span {
+    color: #C4E538;
 }
 
 .headerContainer2 h1 {
@@ -79,7 +69,7 @@
     height: 20px;
     background-color: aliceblue;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 5px;
     box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.5);
 }
 
@@ -137,14 +127,15 @@
 .bodyContainer1 h1 {
     color: #3B3B98;
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .bodyContainer2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    margin-top: 50px;
+    gap: 25px;
+    
+    margin-top: 60px;
 }
 
 .why {
@@ -158,6 +149,7 @@
 
 .whyAerobuddies {
     margin-top: 80px;
+    row-gap: 20px;
 }
 
 .bodyBtn {
@@ -176,10 +168,11 @@
 }
 
 .bodyContainer3 {
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: repeat(2, 150px);
-    gap: 30px;
+    gap: 40px;
     margin-top: 50px;
 }
 
@@ -191,7 +184,7 @@
     padding: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     color: #596275;
-    height: 150px;
+    height: 200px;
 
 }
 
@@ -231,7 +224,6 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-
 
 }
 
