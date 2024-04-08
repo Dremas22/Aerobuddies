@@ -23,9 +23,14 @@ function Locations() {
                 </div>
 
                 <div className={classes.addressDetails}>
+                    
                     <h5>Location Name</h5>
                     <div  className={classes.liner}></div>
-
+        
+                    <h6>Address </h6>
+                    <div  className={classes.liner}></div>
+                    
+                    <p>000 Ruimsig Eastate</p>
                 </div>
 
             </div>
