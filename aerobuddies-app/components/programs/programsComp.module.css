@@ -48,11 +48,22 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    transition: 0.3ms;   
+    transition: 0.1s;   
+}
+
+.linksPrograms {
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    font-weight: bolder;
+    
 }
 
 .learningPrograms:hover {
     transform: scale(1.05);
+    background-color: #3B3B98;
+    
+    color: #C4E538;
     cursor: pointer;
 }
 
@@ -88,5 +99,30 @@
         margin: 40px 0 0 34px;
         
     
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 992px) {
+
+
+    .programsContainer2 {
+        display: grid;
+        grid-template-columns: repeat(2, 0.2fr); 
+        grid-template-rows: auto; 
+        gap: 10px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 40px;
+    
+    }
+
+    .programsDetails {
+        display: flex;
+        color: #596275;
+        font-size: large;
+        width: 500px;
+        text-align: center;
+        margin-left: 24px;
+        margin-top: 35px;
     }
 }

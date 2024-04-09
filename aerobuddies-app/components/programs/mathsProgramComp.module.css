@@ -1,0 +1,89 @@
+.mathsProgramContainer {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.mathsProgramContainer h1 {
+    color: #3B3B98;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 55px;
+    font-weight: bold;
+}
+
+.mathsProgramContainer3 {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin: 40px 0 0 120px;
+
+}
+
+.mathsProgramContents1,
+.mathsProgramContents2 {
+    width: 50%;
+    height: 100%;
+
+}
+
+.mathsProgramContents1 {
+    text-align: left;
+}
+
+.mathsProgramContents1 h5 {
+    color: #3B3B98;
+    margin-top: 20px;
+}
+
+
+
+.mathsProgramContents1 p {
+    
+    color: #636e72;
+}
+
+
+
+.mathsProgramContents2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mathsProgramContents2 img {
+
+    width: 100%;
+    height: 400px;
+    margin: 10px 0 0 50px;
+}
+
+.linerMaths {
+    width: 80%;
+    height: 3px;
+    margin: 20px 0 0 130px;
+    background-color: #3B3B98;
+}
+
+.mathsProgramList h5 {
+    color: #3B3B98;
+    font-weight: bold;
+}
+
+.mathsProgramList {
+    width: 650px;
+    margin: 50px 0 0 300px;
+    text-align: left;
+}
+
+.mathsProgramList ul li {
+    color: #636e72;
+    text-align: left;
+
+}
+

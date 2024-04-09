@@ -64,3 +64,52 @@
     font-size: 30px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 580px) {
+
+    .container1 {
+    
+        text-align: center;
+        justify-content: center;
+        width: 250px;
+        margin-left: 36px;
+        
+    }
+
+    .container1 p {
+
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    .eventsContainer2 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 992px) {
+
+    .container1 {
+    
+        text-align: center;
+        justify-content: center;
+        width: 500px;
+        margin-left: 36px;
+        
+    }
+
+    .container1 p {
+
+        margin-left: 75px;
+        
+    }
+
+    .eventsContainer2 {
+        display: grid;
+    grid-template-columns: repeat(2, 0.2fr);
+    grid-template-rows: auto;
+    gap: 25px;
+    }
+
+}

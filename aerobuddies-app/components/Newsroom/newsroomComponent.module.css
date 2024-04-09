@@ -17,6 +17,7 @@
     color: #3B3B98;
     font-size: 40px;
     margin-top: 35px;
+    font-weight: bold;
 }
 
 .contents1 {
@@ -47,7 +48,7 @@
 }
 
 .articleDiv {
-    width: 120%;
+    width: 100%;
     height: 500px;
     /* border: 1px solid #dfe6e9; */
     
@@ -73,7 +74,7 @@
     margin-top: 35px;
 }
 
-.contents2 {
+/* .contents2 {
     display: grid;
     grid-template-columns: repeat(2, 0.2fr);
     gap: 10px;
@@ -92,7 +93,7 @@
     text-align: center;
     justify-content: center;
     transition: 0.3ms;
-}
+} */
 
 
 
@@ -103,4 +104,46 @@
 
 .gridContents h1 {
     font-size: 30px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+
+    .carouselContainer {
+        width: 300px;
+        height: 160px;
+        
+        margin-left: -40px;
+        color: aliceblue;
+    }
+
+    /* .articlesContainer {
+        display: flex;
+        flex-direction: column;
+        
+        border: 1px solid #dfe6e9;
+        
+    } */
+
+    .itemContainer img {
+        height: 150px;
+        /* width: 100px */
+        /* margin-top: 50px; */
+    }
+
+}
+
+@media screen and (min-width: 581px) and (max-width: 992px) {
+
+    .carouselContainer {
+        width: 95%;
+        height: 300px;
+        margin-left: -10px;
+    }
+
+    .itemContainer img {
+        height: 300px;
+        width: 100%;
+        /* margin-top: 50px; */
+    }
+
 }

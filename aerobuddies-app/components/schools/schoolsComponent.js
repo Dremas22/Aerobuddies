@@ -13,12 +13,11 @@ function SchoolsComponent() {
                 <h1>Bring AeroBuddies to your school</h1>
                 <div className={classes.schoolsContainer2}>
                     <div className={classes.schoolsContents}>
-                        <p>
-
-                        </p>
+                           <h3>AeroBuddies</h3>
+                        
                     </div>
                     <div className={classes.schoolsContents}>
-                        <img src="./images/kidsLearning.png" alt="kidslearning image" />
+                        <img src="./images/smile.png" alt="kidslearning image" />
                     </div>
                 </div>
 
@@ -26,8 +25,9 @@ function SchoolsComponent() {
                 <div className={classes.productsContainer}>
 
                     <div className={classes.productsMiniContainer}>
+
                         <div className={classes.productImg}>
-                        <img src="./images/science.jpg" alt="science image" />
+                            <img src="./images/science.jpg" alt="science image" />
                         </div>
                         <div className={classes.productDetails}>
                             <h3>Science</h3>
@@ -38,7 +38,7 @@ function SchoolsComponent() {
 
                     <div className={classes.productsMiniContainer}>
                         <div className={classes.productImg}>
-                        <img src="./images/technology.jpg" alt="science image" />
+                            <img src="./images/technology.jpg" alt="science image" />
                         </div>
                         <div className={classes.productDetails}>
                             <h3>Technology</h3>
@@ -48,7 +48,7 @@ function SchoolsComponent() {
 
                     <div className={classes.productsMiniContainer}>
                         <div className={classes.productImg}>
-                        <img src="./images/engineering.jpg" alt="science image" />
+                            <img src="./images/engineering.jpg" alt="science image" />
                         </div>
                         <div className={classes.productDetails}>
                             <h3>Engineering</h3>
@@ -58,7 +58,7 @@ function SchoolsComponent() {
 
                     <div className={classes.productsMiniContainer}>
                         <div className={classes.productImg}>
-                        <img src="./images/maths.png" alt="science image" />
+                            <img src="./images/maths.png" alt="science image" />
                         </div>
                         <div className={classes.productDetails}>
                             <h3>Maths</h3>

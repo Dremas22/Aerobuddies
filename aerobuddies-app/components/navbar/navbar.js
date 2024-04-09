@@ -203,7 +203,7 @@ function Navbar() {
                                 <Link href='/events' className={classes.links}>Events</Link>
                                 <Link href='/schools' className={classes.links}>Schools</Link>
                                 <Link href='/locations' className={classes.links}>Locations</Link>
-                                <Link href='/camps' className={classes.links}>Newsroom</Link>
+                                <Link href='/newsroom' className={classes.links}>Newsroom</Link>
                                 <Login />
                                 
                             </div>

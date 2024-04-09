@@ -4,7 +4,8 @@
     text-align: center;
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+        
 }
 
 .schoolsContainer h1 {
@@ -15,21 +16,24 @@
 }
 
 .schoolsContainer1 {
-    width: 900px;
-    text-align: left;
-    margin: 10px 0 0 100px;
-    
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0 0 40px;
+       
 }
 
 .schoolsContainer2 {
     display: flex;
     text-align: center;
-    width: 100%;
-    margin-left: 100px;
+    width: 80%;
+    margin: 50px 0 0 100px;
 }
 
 .schoolsContents {
-    width: 500px;
+    width: 400px;
     height: 350px;
     text-align: center;
     padding: 10px;
@@ -37,18 +41,18 @@
 }
 
 .schoolsContents img {
-    width: 520px;
-    height: 320px;
+    width: 250px;
+    height: 250px;
     margin-left: 40px
 }
 
 .products {
-    margin-left: 50%;
+    margin-left: 100px;
 }
 
 .productsContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 0.4fr);
     grid-template-rows: auto;
     column-gap: 30px;
     row-gap: 15px;
@@ -79,5 +83,100 @@
 .productDetails {
     padding: 10px;
     color: #8395a7
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+
+    .schoolsContainer1 {
+        display:flex;
+        flex-direction: column;
+        width: 300px;
+        text-align: center;
+        justify-content: center;
+        margin: 10px; 
+    }
+
+    .schoolsContainer h1 {
+        color: #3B3B98;
+        margin-top: 40px;
+        font-size: 30px;
+        width: 300px;  
+    }
+
+    .schoolsContainer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        margin: 50px 0 0 0;  
+    }
+
+    .schoolsContents {
+        width: 100%;
+        height: 150px;    
+    }
+
+    .schoolsContents img {
+        width: 140px;
+        height: 140px;
+        margin-right: 50px;
+    }
+
+    .products {
+        margin-left: 2px;
+    }
+
+    .productsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        margin-left: -1px;   
+    }
+
+    .productsMiniContainer {   
+        width: 300px;
+        height: 140px;
+    }
+
+    .productDetails {
+        width: 100%;
+    }
+
+    .productImg {
+        background-color: #CAD3C8;
+    }
+
+}
+
+@media screen and (min-width: 581px) and (max-width: 992px) {
+
+    .schoolsContents {
+        width: 100%;
+        height: 150px;    
+    }
+
+    .schoolsContents img {
+        width: 140px;
+        height: 140px;
+        margin-right: 50px;
+    }
+
+    .productsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* width: 300px;
+        margin-left: -1px;    */
+    }
+
+    .productsMiniContainer {   
+        width: 450px;
+        height: 200px;
+    }
+    
 }
 
