@@ -5,9 +5,9 @@ import Footer from "../footer/footer";
 
 function Events() {
     return (
+        <>
+        <Navbar />
         <div className={classes.events_Schools}>
-            
-            <Navbar />
 
             <h1>Events</h1>
 
@@ -31,6 +31,7 @@ function Events() {
             <Footer />
 
         </div>
+        </>
     )
 }
 

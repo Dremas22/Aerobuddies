@@ -8,8 +8,9 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function NewsroomComp() {
     return (
+        <>
+        <Navbar />
         <div className={classes.newsroom}>
-            <Navbar />
 
             <h1>Newsroom Articles</h1>
             <div className={classes.newsroomContainer}>
@@ -107,6 +108,7 @@ function NewsroomComp() {
             </div>
             <Footer />
         </div>
+        </>
     )
 }
 

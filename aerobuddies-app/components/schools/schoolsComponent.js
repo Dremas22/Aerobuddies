@@ -5,9 +5,10 @@ import Footer from "../footer/footer";
 
 function SchoolsComponent() {
     return (
+        <>
+        <Navbar />
+        
         <div className={classes.schoolsContainer}>
-
-            <Navbar />
             <div className={classes.schoolsContainer1}>
 
                 <h1>Bring AeroBuddies to your school</h1>
@@ -72,6 +73,7 @@ function SchoolsComponent() {
 
             <Footer />
         </div>
+        </>
     )
 }
 

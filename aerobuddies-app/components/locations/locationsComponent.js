@@ -5,9 +5,10 @@ import Footer from "../footer/footer";
 
 function Locations() {
     return (
+        <>
+        <Navbar />
+        
         <div className={classes.locationsContainer}>
-            <Navbar />
-
             <h1>AeroBuddies Location</h1>
 
             <div className={classes.addressContainer}>
@@ -37,6 +38,7 @@ function Locations() {
 
             <Footer />
         </div>
+        </>
     )
 }
 

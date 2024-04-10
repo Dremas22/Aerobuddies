@@ -5,8 +5,11 @@ import Footer from "../footer/footer"
 
 function MeetTheteam() {
     return (
+        <>
+        <Navbar />
+        
         <div className={classes.teamContainer}>
-            <Navbar />
+            
             <div className={classes.teamContents}>
 
                 <h1>Meet AeroBuddies Team</h1>
@@ -25,6 +28,7 @@ function MeetTheteam() {
             </div>
             <Footer />
         </div>
+        </>
     )
 }
 
