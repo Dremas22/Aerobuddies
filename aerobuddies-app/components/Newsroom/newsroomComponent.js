@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./newsroomComponent.module.css"
 import Navbar from "../navbar/navbar";
 import Footer from "../footer/footer";
-import { Button } from 'react-bootstrap';
+import Link from "next/link";
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -28,7 +28,9 @@ function NewsroomComp() {
                                     />
                                 </div>
                                 <div className={classes.articleDiv}>
-                                    <h3>Article 1</h3>
+                                    <Link href="https://bit.ly/43VB8yQ">
+                                        <h4>Making Aviation accessible for towns</h4>
+                                    </Link>
                                 </div>
                             </div>
 
