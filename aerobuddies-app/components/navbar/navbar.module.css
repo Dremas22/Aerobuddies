@@ -1,7 +1,8 @@
 .navContainer {
     background-color: #7158e2;
     width: 100%;
-    /* position: fixed; */
+    /* position: fixed;
+    z-index: 1000; */
 }
 
 .navDiv {
@@ -185,6 +186,12 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 580px) {
+
+    /* .navContainer {
+        position: fixed;
+        z-index: 1000;
+    } */
+
     .linkDiv {
         display: none;
     }
@@ -293,6 +300,12 @@
 }
 
 @media screen and (min-width: 581px) and (max-width: 992px) {
+
+    /* .navContainer {
+        position: fixed;
+        z-index: 1000;
+    } */
+
     .linkDiv {
         display: none;
     }

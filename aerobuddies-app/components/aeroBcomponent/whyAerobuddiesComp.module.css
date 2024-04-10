@@ -7,6 +7,11 @@
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.whyNav {
+    position: fixed;
+    z-index: 1000;
+}
+
 .whyContainer h1 {
     color: #3B3B98;
     font-size: 40px;

@@ -6,8 +6,10 @@ import Link from "next/link";
 
 function WhyAerobuddiesComp() {
     return (
+        <>
+        <Navbar />
         <div className={classes.whyContainer}>
-            <Navbar />
+            
 
             <h1>Why Aerobuddies?</h1>
             <div className={classes.symbolsDiv}>
@@ -103,6 +105,7 @@ function WhyAerobuddiesComp() {
 
             <Footer />
         </div>
+        </>
     )
 }
 

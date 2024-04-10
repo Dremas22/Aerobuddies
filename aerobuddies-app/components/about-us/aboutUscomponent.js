@@ -6,8 +6,10 @@ import Footer from "../footer/footer";
 
 function AboutUs() {
     return (
+        <>
+        <Navbar />
         <div className={classes.aboutUsContainer}>
-            <Navbar />
+            
             <div className={classes.aboutUsContents}>
                 <div className={classes.aboutUsContents2}>
                     <h1>Our Story</h1>
@@ -62,6 +64,7 @@ function AboutUs() {
             <Footer />
 
         </div>
+        </>
     )
 }
 

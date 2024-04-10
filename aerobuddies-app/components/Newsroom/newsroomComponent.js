@@ -23,7 +23,7 @@ function NewsroomComp() {
                                 <div className={classes.articleDiv}>
                                     <img
                                         className="d-block w-100"
-                                        src="./images/kidsLearning.png"
+                                        src="./images/article1Image.jpg"
                                         alt="First slide"
                                     />
                                 </div>
@@ -45,14 +45,23 @@ function NewsroomComp() {
 
                             <div className={classes.articlesContainer}>
                                 <div className={classes.articleDiv}>
-                                    <img
+                                    {/* <img
                                         className="d-block w-100"
                                         src="./images/kidsLearning.png"
                                         alt="First slide"
-                                    />
+                                    /> */}
+
+                                    <iframe width="622" height="360" src="https://www.youtube.com/embed/vvHUYGYN9ro" title="This entrepreneur 
+                                    is out to change SA’s low maths &amp; science marks" frameborder="0" allow="accelerometer; autoplay; 
+                                    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                    </iframe>
+
                                 </div>
                                 <div className={classes.articleDiv}>
-                                    <h3>Article 2</h3>
+                                    <Link href="https://bit.ly/49vIxq6">
+                                        <h4>Change SA’s low maths & science marks</h4>
+                                    </Link>
                                 </div>
                             </div>
 
@@ -74,7 +83,9 @@ function NewsroomComp() {
                                     />
                                 </div>
                                 <div className={classes.articleDiv}>
-                                    <h3>Article 3</h3>
+                                    <Link href="https://bit.ly/3xsRnYm">
+                                        <h4>Designed to improve Maths & Sicence marks</h4>
+                                    </Link>
                                 </div>
                             </div>
 
