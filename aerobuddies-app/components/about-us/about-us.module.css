@@ -12,7 +12,7 @@
 .aboutUsContainer h1 {
     color: #3B3B98;
     font-size: 30px;
-    
+    font-weight: bold;
 }
 
 .aboutUsContents {
@@ -65,7 +65,6 @@
         justify-content: center;
         
     }
-
     
     .aboutUsContents2 p {
         text-align: center;
@@ -86,6 +85,10 @@
 }
 
 @media screen and (min-width: 581px) and (max-width: 992px) {
+
+    .aboutUsContainer h1 {
+        margin-top: 40px;
+    }
 
     .videoBackground {
         width: 100%;
