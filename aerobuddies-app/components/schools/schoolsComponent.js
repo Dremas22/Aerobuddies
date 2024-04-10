@@ -7,7 +7,7 @@ function SchoolsComponent() {
     return (
         <>
         <Navbar />
-        
+
         <div className={classes.schoolsContainer}>
             <div className={classes.schoolsContainer1}>
 
@@ -18,7 +18,7 @@ function SchoolsComponent() {
                         
                     </div>
                     <div className={classes.schoolsContents}>
-                        <img src="./images/smile.png" alt="kidslearning image" />
+                        
                     </div>
                 </div>
 

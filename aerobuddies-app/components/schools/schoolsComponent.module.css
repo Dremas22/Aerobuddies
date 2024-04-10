@@ -33,10 +33,13 @@
 }
 
 .schoolsContents {
-    width: 400px;
+    width: 100%;
     height: 350px;
     text-align: center;
     padding: 10px;
+    background-color: #dfe6e9;
+        border: 1px solid #dfe6e9;
+        margin: 10px
        
 }
 
@@ -114,7 +117,8 @@
 
     .schoolsContents {
         width: 100%;
-        height: 150px;    
+        height: 150px;
+        
     }
 
     .schoolsContents img {
