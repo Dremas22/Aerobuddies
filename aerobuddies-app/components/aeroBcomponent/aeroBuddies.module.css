@@ -10,19 +10,18 @@
 }
 
 .videoBackground {
-    width: 100%;
+    width: 95%;
     position: relative;
-    height: 90vh;
+    height: 85vh;
     background-color: #57606f
-    
 }
 
 .video {
-    
+
     width: 100%;
     height: 100%;
     object-fit: cover
-    /* position: absolute;
+        /* position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
@@ -135,7 +134,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
-    
+
     margin-top: 60px;
 }
 
@@ -174,7 +173,13 @@
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: repeat(2, 150px);
     gap: 40px;
-    margin-top: 50px;
+
+    /* margin-top: 50px; */
+}
+
+.hello {
+    height: 1500px;
+    background-color: #8395a7;
 }
 
 .whatDetails {
@@ -189,10 +194,10 @@
 
 }
 
-.bodyContainer3 span {
+/* .bodyContainer3 span {
     position: relative;
     margin-right: 500px;
-}
+} */
 
 .link {
     text-decoration: none;
@@ -211,7 +216,6 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 3px;
 
 }
 
@@ -234,6 +238,10 @@
 
 @media screen and (min-width: 320px) and (max-width: 580px) {
 
+    /* .mainContainer {
+        height: 2200px
+    } */
+
     .headerContainer {
         font-size: 25px;
     }
@@ -247,7 +255,7 @@
 
     .headerContainer3 {
         text-align: center;
-        top: 67%
+        top: 68%
     }
 
     .bodyContainer2 {
@@ -261,16 +269,17 @@
         display: flex;
         flex-direction: column;
         row-gap: 15px;
-        margin-top: 100px;
+        margin: 50px 0 0 10px;
+        height: 1250px;
 
     }
 
-    .bodyContainer3 div {
+    .whatDetails {
         height: auto;
-        width: 250px
+        width: 290px
     }
 
-    .bodyContainer3 div p {
+    .whatDetails p {
         width: auto;
     }
 
@@ -282,6 +291,7 @@
 
     .bodyContainer1 h1 {
         font-size: 30px;
+
     }
 
     .features,
@@ -289,8 +299,6 @@
         display: flex;
         flex-direction: column;
     }
-
-
 }
 
 @media screen and (min-width: 581px) and (max-width: 992px) {
@@ -319,7 +327,7 @@
         flex-direction: column;
         row-gap: 15px;
         margin-top: 100px;
-
+        height: 800px
     }
 
     .bodyContainer3 div {

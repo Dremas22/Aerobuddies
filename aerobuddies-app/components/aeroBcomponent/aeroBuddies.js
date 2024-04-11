@@ -7,46 +7,47 @@ import Footer from "../footer/footer";
 
 function AeroBuddiesComp() {
     return (
+
         <>
             <Navbar />
 
-            <div className={classes.videoBackground}>
-                
-                <video autoPlay loop muted className={classes.video}>
-                    <source src="/videos/BG1.mp4" type="video/mp4" />
-                    
-                </video>
-            </div>
-
             <div className={classes.headerContainer}>
+
+                <div className={classes.videoBackground}>
+
+                    <video autoPlay loop muted className={classes.video}>
+                        <source src="/videos/BG1.mp4" type="video/mp4" />
+
+                    </video>
+                </div>
                 <div className={classes.headerContainer2}>
                     <div className={classes.headerProgs}>
                         <div className={classes.stem}>
-                        <span>S</span>cience
-                            </div>
+                            <span>S</span>cience
+                        </div>
                         <div className={classes.radioDiv}></div>
                     </div>
 
                     <div className={classes.headerProgs}>
                         <div className={classes.stem}>
                             <span>T</span>echnology
-                            </div>
+                        </div>
                         <div className={classes.radioDiv}></div>
                     </div>
 
 
                     <div className={classes.headerProgs}>
                         <div className={classes.stem}>
-                        <span>E</span>ngineering
-                            </div>
+                            <span>E</span>ngineering
+                        </div>
                         <div className={classes.radioDiv}></div>
                     </div>
 
 
                     <div className={classes.headerProgs}>
                         <div className={classes.stem}>
-                        <span>M</span>aths
-                            </div>
+                            <span>M</span>aths
+                        </div>
                     </div>
 
 
@@ -64,8 +65,7 @@ function AeroBuddiesComp() {
 
                     <br />
                     <p>A Place Where Kids Do Amazing Maths, Where Curiosity, Exploration and Fun Meet Maths!</p>
-                    <br />
-                    <br />
+
                     <p>
                         AeroBuddies offers Science, Technology, Engineering, & Maths (STEM)
                         Programs and Camps for kids and leaners of all grades. Discover education that feels like play!
@@ -179,6 +179,10 @@ function AeroBuddiesComp() {
                     </div>
                 </div>
 
+                {/* <div className={classes.hello}>
+                    <h1>Hello</h1>
+                    </div> */}
+
                 <h1>As featured On</h1>
                 <div className={classes.features}>
                     <img src="./images/702news.jpeg" style={{ width: '200px', height: '100px' }} alt="702 image" />
@@ -197,11 +201,8 @@ function AeroBuddiesComp() {
                     <img src="./images/sowetoTV.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
                 </div>
 
-                <Footer />
-
-
             </div>
-
+            <Footer />
         </>
 
     )
