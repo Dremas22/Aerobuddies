@@ -28,14 +28,14 @@ function Footer() {
             <div className={classes.footer3}>
                 <h3>Social Media</h3>
                 <br />
-                <Link href='https://www.facebook.com'>
+                <Link href='https://www.facebook.com/AeroBuddies/'>
                     <img src="./images/facebook.png" alt="facebook logo" />
                 </Link>
                 <Link href='https://www.linkedin.com'>
                     <img src="./images/linkedin.png" alt="facebook logo" />
                 </Link>
-                <Link href='https://www.twitter.com'>
-                    <img src="./images/twitter.png" alt="facebook logo" />
+                <Link href='https://www.tiktok.com'>
+                    {/* <img src="./images/twitter.png" alt="facebook logo" /> */}
                 </Link>
             </div>
 
