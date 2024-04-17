@@ -16,10 +16,24 @@ function MeetTheteam() {
 
                 <div className={classes.teamMembers}>
                     <div className={classes.member}>
-                        <img src="./images/picture1.jpg" alt="member imgage" />
+                        <img src="./images/tshepiso.jpeg" alt="member image" />
                     </div>
                     <div className={classes.memberInfo}>
-                        <h2>Member Name</h2>
+                        <h2>Joe Phalwane</h2>
+                        <h5>Chief Executive Officer</h5>
+                    </div>
+                </div>
+
+                <div  className={classes.liner}></div>
+
+                <div className={classes.teamMembers}>
+                    <div className={classes.member1}>
+                        <img src="./images/pat.jpeg" alt="member image" />
+                    </div>
+                    <div className={classes.memberInfo}>
+                        <h2>Pat Olonta</h2>
+                        <h5>AeroBuddies Nigeria</h5>
+                        <h5>Country Manager</h5>
                     </div>
                 </div>
 

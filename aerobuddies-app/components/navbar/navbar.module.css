@@ -2,7 +2,7 @@
     background-color: #7158e2;
     width: 100%;
     /* position: fixed;
-    z-index: 1000; */
+    z-index: 2000; */
 }
 
 .navDiv {
@@ -189,7 +189,8 @@
 
     /* .navContainer {
         position: fixed;
-        z-index: 1000;
+        z-index: 3000;
+        
     } */
 
     .linkDiv {
@@ -199,7 +200,8 @@
     .menu {
         display: block;
         margin-left: auto;
-        z-index: 1000;
+        /* position: fixed; */
+        z-index: 3000;
         /* margin-right: 70px; */
     }
 
@@ -209,6 +211,8 @@
 
     .navDiv {
         /* margin-right: -100px; */
+        
+        
         width: auto
     }
 
@@ -304,7 +308,7 @@
 
     /* .navContainer {
         position: fixed;
-        z-index: 1000;
+        z-index: 2000;
     } */
 
     .linkDiv {
