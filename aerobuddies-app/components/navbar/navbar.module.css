@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-
     /* gap: 35px; */
     color: #fff;
     width: 100%;
@@ -49,7 +48,7 @@
 
 .links:hover {
     color: #f1c40f;
-    
+
 }
 
 
@@ -80,14 +79,14 @@
 
 .aboutUs:hover {
     color: #f1c40f;
-    
+
 }
 
 .aboutUs option {
     background-color: antiquewhite;
     width: 250px;
     color: #6c5ce7;
-    
+
 }
 
 .navMobile {
@@ -172,7 +171,8 @@
     /* border: 1px solid white; */
     width: 30px;
     height: 25px;
-    border-radius: 5px
+    border-radius: 5px;
+    
 }
 
 .line {
@@ -189,8 +189,7 @@
 
     /* .navContainer {
         position: fixed;
-        z-index: 3000;
-        
+        z-index: 2000;
     } */
 
     .linkDiv {
@@ -200,8 +199,8 @@
     .menu {
         display: block;
         margin-left: auto;
-        /* position: fixed; */
-        z-index: 3000;
+        
+        z-index: 2000;
         /* margin-right: 70px; */
     }
 
@@ -210,8 +209,6 @@
     } */
 
     .navDiv {
-        /* margin-right: -100px; */
-        
         
         width: auto
     }
@@ -233,8 +230,8 @@
         font-size: large;
         font-weight: bold;
         margin: 20px 45px 0 0;
-        
-        
+
+
     }
 
     .linkDivMobile {
@@ -257,9 +254,9 @@
         box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.5);
     }
 
-     .links {
+    .links {
         color: #3B3B98;
-     }
+    }
 
     .linkDivMobile select {
         background-color: #3B3B98;
@@ -281,7 +278,7 @@
         font-size: large;
         font-weight: bold;
         cursor: pointer;
-        
+
     }
 
     .cancelBtn:hover {
@@ -338,7 +335,7 @@
         font-size: large;
         font-weight: bold;
         margin: 20px;
-        
+
     }
 
     .linkDivMobile {
@@ -362,9 +359,9 @@
 
     }
 
-     .links {
+    .links {
         color: #3B3B98;
-     }
+    }
 
     .linkDivMobile select {
         background-color: #3B3B98;

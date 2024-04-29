@@ -10,26 +10,23 @@ function AeroBuddiesComp() {
 
     const imageRef = useRef(null);
 
-    useEffect(() => {
-        const image = imageRef.current;
-        let currentIndex = 0;
-        const images = [
-            '/videos/BG1.mp4',
-            '/images/headerPic.jpeg',
-
-        ];
-
-        const slideshowInterval = setInterval(() => {
-            currentIndex = (currentIndex + 1) % images.length;
-            image.style.opacity = 0;
-            setTimeout(() => {
-                image.src = images[currentIndex];
-                image.style.opacity = 1;
-            }, 1000);
-        }, 5000); 
-
-        return () => clearInterval(slideshowInterval);
-    }, []);
+    // useEffect(() => {
+    //     const image = imageRef.current;
+    //     let currentIndex = 0;
+    //     const images = [
+    //         '/videos/BG1.mp4',
+    //         '/images/headerPic.jpeg',
+    //     ];
+    //     const slideshowInterval = setInterval(() => {
+    //         currentIndex = (currentIndex + 1) % images.length;
+    //         image.style.opacity = 0;
+    //         setTimeout(() => {
+    //             image.src = images[currentIndex];
+    //             image.style.opacity = 1;
+    //         }, 1000);
+    //     }, 5000);
+    //     return () => clearInterval(slideshowInterval);
+    // }, []);
 
     return (
 
@@ -43,8 +40,12 @@ function AeroBuddiesComp() {
                     <video autoPlay loop muted className={classes.video}>
                         <source src="/videos/BG1.mp4" type="video/mp4" />
                     </video>
-                    
-                    <img src="./images/headerPic.jpeg" alt="BG-image" ref={imageRef}/>
+
+                    {/* <img src="/images/headerPic.jpeg"
+                        className={classes.headerPicture}
+                        alt="BG-image"
+                        ref={imageRef}
+                    /> */}
                 </div>
 
                 <div className={classes.headerContainer2}>
