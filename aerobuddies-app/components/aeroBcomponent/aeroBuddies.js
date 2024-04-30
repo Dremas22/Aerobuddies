@@ -217,16 +217,22 @@ function AeroBuddiesComp() {
                     <img src="./images/cnbc.jpeg" alt="cnbc image" />
                     <img src="./images/thestar.jpeg" alt="africa image" />
                     <img src="./images/safm.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
-                    <img src="./images/sowetan.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
+
                 </div>
 
-                <h1>Our Acolades</h1>
-                <div className={classes.acolades}>
-                    <img src="./images/702.jpeg" style={{ width: '200px', height: '100px' }} alt="702 image" />
-                    <img src="./images/africa-ea.jpeg" alt="cnbc image" />
-                    <img src="./images/newsroom.jpeg" style={{ width: '200px', height: '150px' }} alt="africa image" />
-                    <img src="./images/caia.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
+                <div className={classes.features2}>
+                    <img src="./images/sowetan.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
+                    <img src="./images/newsroom.jpeg" style={{ width: '140px', height: '150px' }} alt="africa image" />
                     <img src="./images/sowetoTV.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
+                </div>
+
+                <h1>Our Accolades</h1>
+                <div className={classes.acolades}>
+                    <img src="./images/702.jpeg" style={{ width: '160px', height: '100px' }} alt="702 image" />
+                    <img src="./images/africa-ea.jpeg" alt="cnbc image" />
+
+                    <img src="./images/caia.jpeg" style={{ width: '140px', height: '100px' }} alt="cnbc image" />
+
                 </div>
 
             </div>
