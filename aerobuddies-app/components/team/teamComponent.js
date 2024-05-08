@@ -67,6 +67,22 @@ function MeetTheteam() {
 
                     <div className={classes.liner2}></div>
 
+                    <div className={classes.teamMembers}>
+                        <div className={classes.member}>
+                            <img src="./images/ogabo.jpeg" alt="member image" />
+                        </div>
+                        <div className={classes.memberInfo}>
+                            <h2>Emmanuel Ogabo</h2>
+                            <h5>Tittle</h5>
+                            <p>
+                                He is a multiple award-winning entrepreneur with international business experience.
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className={classes.liner2}></div>
+
                 </div>
                 <Footer />
             </div>

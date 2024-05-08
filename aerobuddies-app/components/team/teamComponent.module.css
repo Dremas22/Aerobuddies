@@ -4,13 +4,8 @@
     text-align: center;
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
 }
-
-/* .teamContents {
-    height: 120vh;
-} */
 
 .teamContents h1 {
     color: #3B3B98;
@@ -24,25 +19,20 @@
     display: flex;
     text-align: center;
     align-items: center;
-    
-
 }
 
 .member {
     width: 450px;
     height: 450px;
-    
     text-align: center;
-    padding: 10px;
-    
+    padding: 10px; 
 }
 
 .member1 {
     width: 450px;
     height: 450px;
     text-align: center;
-    padding: 10px;
-    
+    padding: 10px; 
 }
 
 .member img {
@@ -73,7 +63,6 @@
 }
 
 .memberInfo h5 {
-
     margin-top: 10px;
 }
 
