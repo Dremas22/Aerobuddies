@@ -16,7 +16,7 @@ function Footer() {
                 <h3>More Information</h3>
                 <br />
                 <Link href='/about-us' className={classes.link} >About Aerobuddies</Link>
-                <Link href='/termsConditions' className={classes.link} >Terms and Conditions</Link>
+                <Link href='/termsAndConditions' className={classes.link} >Terms and Conditions</Link>
             </div>
             <div className={classes.footer2}>
                 <h3>Site Navigation</h3>

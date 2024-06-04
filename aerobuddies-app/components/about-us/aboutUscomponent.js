@@ -53,12 +53,9 @@ function AboutUs() {
 
             </div>
             
-            <div className={classes.videoBackground}>
+            <div className={classes.imgBackground}>
 
-                <video autoPlay loop muted className={classes.video}>
-                    <source src="/videos/BG3.mp4" type="video/mp4" />
-
-                </video>
+                <img src='./images/headerPic.jpeg' alt='image' />
             </div>
 
             <Footer />

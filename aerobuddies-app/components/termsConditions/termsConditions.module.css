@@ -1,0 +1,22 @@
+.termsContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.heading {
+    color: #3B3B98;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 65px 0 0 100px;
+}
+
+.termsContents {
+    margin: 20px 0 0 100px;
+    width: 80%;
+    font-size: small;
+    color: #8395a7
+}

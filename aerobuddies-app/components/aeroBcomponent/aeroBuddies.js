@@ -156,7 +156,7 @@ function AeroBuddiesComp() {
                             to us as parents. We, like most parents, think our children are exceptional
                             but you confirmed it for us.”
                         </p>
-                        <span>- Beth H.</span>
+                        <span>- Tshidi M.</span>
                     </div>
                     <div className={classes.whatDetails}>
                         <p>
@@ -165,7 +165,7 @@ function AeroBuddiesComp() {
                             This morning, she explained the decimal placement and brought her homework to
                             school to do during recess!!! Thank you for your help and making math fun.”
                         </p>
-                        <span>- Robin W.</span>
+                        <span>- Elsie S.</span>
                     </div>
                     <div className={classes.whatDetails}>
                         <p>
@@ -173,14 +173,14 @@ function AeroBuddiesComp() {
                             was patient and kind. By the end he was totally enthralled and learned
                             how to use a mouse and keyboard and the next week he was talking about biomes. Overall he absolutely loves it and to get a nice recap after each lesson is above and beyond expectations. I hope this sets him up to learn new stuff from you guys for years to come!”
                         </p>
-                        <span>- Billy M.</span>
+                        <span>- Josh M.</span>
                     </div>
                     <div className={classes.whatDetails}>
                         <p>
                             “When Marcia got her first A in math it changed her whole attitude
                             towards school, not just math. Thank You Aerobuddies!”
                         </p>
-                        <span>- Peter Z.</span>
+                        <span>- Thabo Z.</span>
                     </div>
                 </div>
 

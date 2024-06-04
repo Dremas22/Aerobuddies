@@ -61,7 +61,7 @@ function Navbar() {
                                 <option>Why Aerobuddies</option>
                                 <option>Meet The Team</option>
                             </select>
-                            <img src='./images/arrowdown2.png' alt='down arrow icon' />
+                            
                         </div>
 
                         <Link href='/programs' className={classes.links}>Programs</Link>
