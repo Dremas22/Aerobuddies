@@ -17,9 +17,9 @@ function Events() {
                     <div className={classes.eventsContents}>
                         <h1>Birthday Parties</h1>
                     </div>
-                    <div className={classes.eventsContents}>
+                    {/* <div className={classes.eventsContents}>
                         <h1>Parents' Night Out</h1>
-                    </div>
+                    </div> */}
                     
                     <div className={classes.eventsContents}>
                         <h1>Saturday Kids Club</h1>

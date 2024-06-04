@@ -21,13 +21,10 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    height: auto;
+    /* background-color: chocolate; */
+    width: 250px;
 }
-
-.logoDiv img {
-    height: 250px;
-    width: 220px;
-}
-
 
 .navLogin {
     margin-left: 100px;
@@ -46,9 +43,14 @@
 
 }
 
+.links img {
+    height: 180px;
+    width: 100%;
+    margin-top: 5px;
+}
+
 .links:hover {
     color: #f1c40f;
-
 }
 
 
