@@ -42,7 +42,7 @@
 }
 
 .learningPrograms {
-    background-color: #95a5a6;
+    
     width: 260px;
     height: 300px;
     display: flex;
@@ -74,9 +74,9 @@
 }
 
 .learningPrograms img {
-    width: 100px;
-    height: 100px;
-    margin-left: 80px;
+    width: 80%;
+    height: 170px;
+    margin-left: 20px;
 }
 
 

@@ -2,6 +2,7 @@
     background-color: #7158e2;
     width: 100%;
     /* position: fixed;
+    top: 0;
     z-index: 2000; */
 }
 
@@ -174,7 +175,10 @@
     width: 30px;
     height: 25px;
     border-radius: 5px;
-    
+    /* position: fixed;
+    top: 0;
+    z-index: 2000; */
+
 }
 
 .line {
@@ -190,7 +194,10 @@
 @media screen and (min-width: 320px) and (max-width: 580px) {
 
     /* .navContainer {
+        
         position: fixed;
+        top: 0;
+        left: 0;
         z-index: 2000;
     } */
 
@@ -201,9 +208,6 @@
     .menu {
         display: block;
         margin-left: auto;
-        
-        z-index: 2000;
-        /* margin-right: 70px; */
     }
 
     /* .navContainer {
@@ -211,7 +215,7 @@
     } */
 
     .navDiv {
-        
+
         width: auto
     }
 

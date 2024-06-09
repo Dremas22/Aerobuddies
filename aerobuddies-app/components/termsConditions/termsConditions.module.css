@@ -20,3 +20,12 @@
     font-size: small;
     color: #8395a7
 }
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+    .heading {
+        margin-right: 40px;
+    }
+    .termsContents {
+        margin-left: 50px;
+    }
+}
