@@ -29,7 +29,7 @@ function Programs() {
 
                         <Link href="/mathsProgram" className={classes.linksPrograms}>
                             <div className={classes.learningPrograms}>
-                                <img src="./images/mathsProg.jpg" alt="maths icon" />
+                                <img src="./images/mathsBuddies.jpeg" alt="maths icon" />
                                 <h1>MathsBuddies</h1>
                             </div>
                         </Link>
@@ -42,39 +42,41 @@ function Programs() {
                             </div>
                         </Link>
 
-                        <div className={classes.learningPrograms}>
-                            <img src="./images/coding.png" alt="maths icon" />
-                            <h1>Coding</h1>
-                        </div>
+                        <Link href="/programs" className={classes.linksPrograms}>
+                            <div className={classes.learningPrograms}>
+                                <img src="./images/coding1.webp" alt="maths icon" />
+                                <h1>Coding</h1>
+                            </div>
+                        </Link>
 
-                        <div className={classes.learningPrograms}>
-                            <img src="./images/robotics.png" alt="maths icon" />
-                            <h1>Robotics</h1>
-                        </div>
+                        <Link href="/programs" className={classes.linksPrograms}>
+                            <div className={classes.learningPrograms}>
+                                <img src="./images/robotics.png" alt="maths icon" />
+                                <h1>Robotics</h1>
+                            </div>
+                        </Link>
 
-                        <div className={classes.learningPrograms}>
-                            <img src="./images/drones.jpeg" alt="maths icon" />
-                            <h1>Drones</h1>
-                        </div>
+                        <Link href="/programs" className={classes.linksPrograms}>
+                            <div className={classes.learningPrograms}>
+                                <img src="./images/drones1.jpg" alt="maths icon" />
+                                <h1>Drones</h1>
+                            </div>
+                        </Link>
 
-                        {/* <div className={classes.learningPrograms}>
-                        <img src="./images/smile.png" alt="maths icon" />
-                        <h1>Game based Learning</h1>
-                    </div>
+                        <Link href="/programs" className={classes.linksPrograms}>
+                            <div className={classes.learningPrograms}>
+                                <img src="./images/homework.png" alt="maths icon" />
+                                <h1>Home Work Center</h1>
+                            </div>
+                        </Link>
 
-                    <div className={classes.learningPrograms}>
-                        <img src="./images/smile.png" alt="maths icon" />
-                        <h1>Science</h1>
-                    </div> */}
-                        <div className={classes.learningPrograms}>
-                            <img src="./images/homework.png" alt="maths icon" />
-                            <h1>Home Work Center</h1>
-                        </div>
+                        <Link href="/programs" className={classes.linksPrograms}>
+                            <div className={classes.learningPrograms}>
+                                <img src="./images/outReachProg.jpg" alt="maths icon" />
+                                <h1>Out Reach Programs</h1>
+                            </div>
+                        </Link>
 
-                        <div className={classes.learningPrograms}>
-                            <img src="./images/outReachProg.jpg" alt="maths icon" />
-                            <h1>Out Reach Programs</h1>
-                        </div>
 
                     </div>
 
