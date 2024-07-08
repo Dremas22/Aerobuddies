@@ -34,7 +34,6 @@
 .flyigClubContainer3 h6 {
     margin-top: 20px;
     font-weight: bold;
-
 }
 
 .flyigClubContents1, .flyigClubContents2 {
@@ -44,7 +43,6 @@
 
 
 .flyigClubContents1 p {
-    
     color: #636e72;
 }
 
@@ -56,15 +54,15 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #dfe6e9;
+    /* background-color: #dfe6e9; */
 }
 
-/* .flyigClubContents2 img {
+.flyigClubContents2 img {
 
-    width: 100%;
-    height: 400px;
+    width: 80%;
+    height: 480px;
     margin: 10px 0 0 50px;
-} */
+}
 
 .linerFlyingClub {
     width: 80%;

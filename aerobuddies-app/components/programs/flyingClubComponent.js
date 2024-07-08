@@ -28,7 +28,7 @@ function FlyingClubComponent() {
                     </div>
 
                     <div className={classes.flyigClubContents2}>
-                        <h5>Image</h5>
+                        <img src="./images/flyingClass.jpeg" alt="flying icon" />
                     </div>
 
                 </div>
