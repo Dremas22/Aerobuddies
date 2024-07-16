@@ -86,7 +86,7 @@ function AeroBuddiesComp() {
                     </p>
                 </div>
 
-                <Link href='/programs'>
+                <Link href='/contactUs'>
                     <button className={classes.enroll}>Enroll Now!</button>
                 </Link>
 

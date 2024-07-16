@@ -30,7 +30,7 @@ function WhyAerobuddiesComp() {
 
                 <div className={classes.enrollDiv}>
                     <h2>Enroll today and see AeroBuddies difference for yourself.</h2>
-                    <Link href='/programs'>
+                    <Link href='/contactUs'>
                         <button className={classes.enroll}>Enroll Now!</button>
                     </Link>
                 </div>
@@ -65,12 +65,12 @@ function WhyAerobuddiesComp() {
                         </div>
 
                         <div className={classes.whyGridContents}>
-                            <iframe width="500" height="400" src="./videos/BG2.mp4"
+                            <video width="500" height="400" src="./videos/BG2.mp4"
                                 title="Why Is Visual Thinking  the Key to Learning Algebra | Algebra Visualized"
-                                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; 
-                    picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen>
-                            </iframe>
+                                controls
+                                preload="none"
+                                referrerPolicy="strict-origin-when-cross-origin">
+                            </video>
                         </div>
 
                         <div className={classes.whyGridContents}>
