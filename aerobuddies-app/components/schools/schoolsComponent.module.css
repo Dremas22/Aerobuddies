@@ -88,6 +88,16 @@
     color: #8395a7
 }
 
+.schoolsContents p {
+    margin-top: 20px;
+}
+
+.elohdoc {
+margin-top: 10px;
+font-size: 25px;
+font-style: bolder;
+}
+
 @media screen and (min-width: 320px) and (max-width: 580px) {
 
     .schoolsContainer1 {

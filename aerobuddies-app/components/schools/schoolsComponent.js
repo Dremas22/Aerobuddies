@@ -15,10 +15,14 @@ function SchoolsComponent() {
                 <div className={classes.schoolsContainer2}>
                     <div className={classes.schoolsContents}>
                            <h3>AeroBuddies</h3>
+                           <p>Aerobuddies is dedicated to empowering schools with innovative STEM products and 
+                            solutions that prepare learners for the future. Among its impactful offerings is the Elohdoc App — 
+                            a groundbreaking digital health platform designed specifically for schools.</p>
                         
                     </div>
                     <div className={classes.schoolsContents}>
-                        
+                        <p className={classes.elohdoc}>Bring affordable Health care to schools</p>
+                        <img src="./images/elohdoc.png" alt="elohdoc image" />
                     </div>
                 </div>
 

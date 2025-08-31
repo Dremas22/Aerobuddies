@@ -69,6 +69,7 @@ function Navbar() {
                         <Link href='/schools' className={classes.links}>Schools</Link>
                         <Link href='/locations' className={classes.links}>Locations</Link>
                         <Link href='/newsroom' className={classes.links}>Newsroom</Link>
+                        <Link href='/contactUs' className={classes.links}>Contact</Link>
 
                         <div className={classes.navLogin}>
                             <Login />
@@ -89,7 +90,7 @@ function Navbar() {
                                 <option>About Us</option>
                                 <option>Our Story</option>
                                 <option>Why Aerobuddies</option>
-                                <option>Meet The Team</option>
+                                
                             </select>
                             <div className={classes.mobileDiv}>
                                 <Link href='/programs' className={classes.links}>Programs</Link>
@@ -98,6 +99,8 @@ function Navbar() {
                                 <Link href='/schools' className={classes.links}>Schools</Link>
                                 <Link href='/locations' className={classes.links}>Locations</Link>
                                 <Link href='/newsroom' className={classes.links}>Newsroom</Link>
+                                <Link href='/contactUs' className={classes.links}>Contact</Link>
+                                
                                 <Login />
                                 
                             </div>
