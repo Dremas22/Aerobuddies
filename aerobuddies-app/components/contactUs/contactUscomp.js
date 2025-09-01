@@ -22,7 +22,7 @@ function ContactUsComp() {
     const encodedMessage = encodeURIComponent(fullMessage);
 
     // Replace with your business WhatsApp number
-    const whatsappNumber = "27831234567";
+    const whatsappNumber = "27792633621";
 
     // Open WhatsApp chat in new tab
     window.open(
