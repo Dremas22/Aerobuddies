@@ -59,7 +59,7 @@ function Navbar() {
                                 <option>About us</option>
                                 <option>Our Story</option>
                                 <option>Why Aerobuddies</option>
-                                <option>Meet The Team</option>
+                               
                             </select>
                             
                         </div>
